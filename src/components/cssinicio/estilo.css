@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero{
+    background-image: linear-gradient(120deg, #f9d5236a 0%, #ff4e516a 100%), url("../img/imagenhero.jpg");/*arreglar la imagen*/
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.textoshero{
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textos-hero h1{
+    font-size: 60px;
+}
+.textos-hero p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.textos-hero a{
+    display: inline-block;
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: #fff;
+}
+.svg-hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.contenedor,.olacontenedor{
+    width: 90%;
+    max-width: 1000%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+.contenedor{
+    padding: 80px 0; /*arreglaar estoooo*/
+}
+.titulo{
+    font-weight: 300;
+    font-size: 35;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.titulo.left{
+    text-align: left;
+}
+.web{
+    display: flex;
+    justify-content: space-between;
+
+
+} /* separar los web*/
+.web img{
+    width: 40%;
+}
+.web .contenedor-textos1{
+    width: 40%;
+}
+.parrafo{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.info{
+    background: rgb(105, 68, 13);
+    color: #fff;
+}
+.contcards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.card{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+
+}
+.card p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.galeria{
+    background-color: rgb(137, 89, 6);
+    width: 100%;
+}
+.galeira img{
+    overflow: hidden;
+
+}
+.last-section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.last-section img{
+    width: 25%;
+}
+.last-section .contenedor-textos1{
+    width: 20%;
+}
+footer{
+    background-color:  rgb(105, 68, 13);
+    color: #fff;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    outline: none;
+    border: 1px solid rgb(63, 22, 139);
+    padding: 20px 10px;
+} /*hacer esto bonito*/
+
+.input::placeholder{
+    color: #fff;
+}
+input[type="text"], 
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+.form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+}
+input[type="submit"]{
+    width: 100px;
+    text-align: center;
+    padding: 15px 0;
+}
+input[type="submit"]:hover{
+   cursor: pointer;
+   color: blue;
+   background: #fff;
+}
